@@ -1,8 +1,9 @@
 import React from 'react'; 
-
-function Component2() {
+import "./component2.css"
+function Component2({onClick }) {
   return (
-      <button>Gửi</button>
+      <button className="component2"
+      onClick={onClick}>Gửi</button>
   );
 }
 
